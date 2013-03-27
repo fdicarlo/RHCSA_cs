@@ -484,7 +484,7 @@ chgrp does the same thing as chown does, except it only changes the group. Handy
 
 ## Locate, read, and use system documentation including man, info, and files in /usr/share/doc.
 
-Man pages, docs, and info are all saving graces on the exams (Thanks to Gianluca for this tips).
+Man pages, docs, and info are all saving graces on the exams (Thanks to Gianluca[^030-1] for this tips).
 
 The most commonly used help pages are man pages.
 
@@ -528,8 +528,27 @@ You could also get information from the /usr/share/docs. Here you can find other
 	/usr/share/doc/yum-3.2.27
 	[root@rhel6 yum-3.2.27]# ls
 	AUTHORS  ChangeLog  COPYING  INSTALL  README  TODO
-
 As you can see its very different, simply text files with license, readme, install instructions, etc. For most of your referencing in an exam situation, use the man pages.
+
+Or you can simply use:
+
+	$ ls -l /usr/share/doc | grep ruby
+	drwxr-xr-x  2 root root  4096 ott 21 11:58 libmysql-ruby
+	drwxr-xr-x  2 root root  4096 ott 21 11:59 libruby
+	drwxr-xr-x 10 root root  4096 ott 24 19:21 libruby1.8
+	drwxr-xr-x  8 root root  4096 feb 23 18:59 libruby1.9.1
+	drwxr-xr-x  2 root root  4096 feb 23 18:59 libruby1.9.1-dbg
+	drwxr-xr-x  3 root root  4096 ott 24 19:22 libtcltk-ruby1.8
+	drwxr-xr-x  3 root root  4096 feb 23 18:59 libtcltk-ruby1.9.1
+	drwxr-xr-x  2 root root  4096 ott 21 11:58 ruby
+	drwxr-xr-x  2 root root  4096 ott 24 19:21 ruby1.8
+	drwxr-xr-x  2 root root  4096 feb 23 18:59 ruby1.9.1
+	drwxr-xr-x  2 root root  4096 feb 23 18:59 ruby1.9.1-dev
+	drwxr-xr-x  3 root root  4096 feb 23 18:59 ruby1.9.1-examples
+	drwxr-xr-x  2 root root  4096 feb 23 18:59 ruby1.9.1-full
+	drwxr-xr-x  2 root root  4096 feb 18 19:45 ruby-dev
+	drwxr-xr-x  3 root root  4096 ott 21 12:03 rubygems
+	drwxr-xr-x  2 root root  4096 ott 21 11:58 ruby-mysql
 
 **Exam tip: If you dont get any output from man pages, try running the following command, which will build the man pages.**
 
@@ -540,3 +559,5 @@ As you can see its very different, simply text files with license, readme, insta
 
 \newpage
 \pagebreak
+
+[^030-1]: Gianluca Varisco <http://it.linkedin.com/in/gvarisco>
