@@ -1,7 +1,5 @@
 # RHCSA Cheat Sheet
 
-# Why this notes
-
 The Red Hat Certification Program[^010-1] are IT Professional certifications for Red Hat products and general Linux related skills such as system administration on Red Hat Enterprise Linux, all certifications are given after passing exams. The program distinguishes itself in that the exams are performance-based, meaning that students must perform tasks on a live system, rather than answering multiple choice questions.  
 
 RHCSA[^010-2] is the entry-level certification that focuses on actual competencies at system administration, including installation and configuration of a Red Hat Linux system and attaching it to a live network running network services.
