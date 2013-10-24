@@ -556,6 +556,10 @@ Or you can simply use:
 	[root@rhel6 ~]# rpm -qi man
 	# then if its installed try
 	[root@rhel6 ~]# makewhatis &
+	
+## Questions
+
+* Search a string root in /etc/passwd file and save in /somefile. 
 
 \newpage
 \pagebreak
