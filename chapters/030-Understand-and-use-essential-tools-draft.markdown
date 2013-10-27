@@ -559,7 +559,10 @@ Or you can simply use:
 	
 ## Questions
 
-* Search a string root in /etc/passwd file and save in /somefile. 
+* Enter a command that lists all users who use bash as their default shells.
+* Search a string root in /etc/passwd file and save in /somefile.
+* What command compresses the /home directory into an archive in bzip2 format, in a file named homearch.tar.bz2?
+* Enter a command that creates a /home/testuser/smb.conf file soft-linked to the /etc/samba/smb.conf file.
 
 \newpage
 \pagebreak

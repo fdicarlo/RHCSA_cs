@@ -4,7 +4,7 @@ The Red Hat Certification Program[^010-1] are IT Professional certifications for
 
 RHCSA[^010-2] is the entry-level certification that focuses on actual competencies at system administration, including installation and configuration of a Red Hat Linux system and attaching it to a live network running network services.
 To achieve the RHCSA certification the student must pass EX200, a half-day hands-on lab exam. The minimum passing score for the exam is 210 out of 300 possible points (70%). There is no prerequisite for the exam, but Red Hat recommends preparing for the exam by taking courses in Red Hat System Administration (RH124 or RH135) if one does not have previous experience.
-RHCSA was launched in 2002 as Red Hat Certified Technician (RHCT). As of July 2009 there were 30,000 RHCTs. In November 2010 it was renamed to RHCSA. Unfortunately, due to mathematical intractability of most Bayesian models, the reader is only shown simple, artificial examples. This can leave the user with a so-what feeling about Bayesian inference. In fact, this was the author's own prior opinion.
+RHCSA was launched in 2002 as Red Hat Certified Technician (RHCT). As of July 2009 there were 30,000 RHCTs. In November 2010 it was renamed to RHCSA.
 
 After some recent success of Red Hat, I decided to investigate the subject again but after some Google's query about the topic I was not able anything of interesing, except some valid books[^010-3] but these is nothing that I can't consult on my eBook's reader or that I can share with my friends, so I started to write a collaborative notes on GitHub.
 
